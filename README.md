@@ -357,80 +357,38 @@ One possible order:
 | Awesome AutoResearch | 2025-2026 | [alvinreal/awesome-autoresearch](https://github.com/alvinreal/awesome-autoresearch) | [![Stars](https://img.shields.io/github/stars/alvinreal/awesome-autoresearch?style=for-the-badge)](https://github.com/alvinreal/awesome-autoresearch) | list | Auto-research systems and loops. |
 | Awesome AI for Science | ongoing | [ai-boost/awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) | [![Stars](https://img.shields.io/github/stars/ai-boost/awesome-ai-for-science?style=for-the-badge)](https://github.com/ai-boost/awesome-ai-for-science) | list | Broad AI-for-science resources. |
 
-<!-- ## Contributing
+## Contributing
+Contributions are welcome. This repository is intended to be a community-maintained field map for Auto Research, AI Scientist systems, research agents, benchmarks, and related infrastructure.
 
-Inclusion is not endorsement. Notes summarize the apparent scope of each project from public sources and should be updated when code, papers, or benchmark protocols change.
+You are welcome to open an issue or pull request to:
 
-Included:
+* add new papers, systems, benchmarks, or infrastructure;
+* update code availability, license information, or project status;
+* correct outdated links or descriptions;
+* improve the taxonomy, reading path, or benchmark categorization;
+* add caveats when a system, benchmark, or result is unclear.
 
-- systems that automate or assist at least one scientific-research stage;
-- agent frameworks with research workflows, memory, tools, code execution, or paper-writing support;
-- benchmarks that evaluate literature discovery, deep research, experiment/code execution, process reliability, or paper reproduction;
-- domain-specific AI scientist systems in biology, chemistry, medicine, ML, data science, finance, or related fields;
-- infrastructure that is commonly useful for building research agents.
+When adding a new item, please try to include:
 
-Usually excluded:
+* the first public release date or paper date;
+* paper, code, project, or benchmark links when available;
+* the appropriate status tag, such as `open-source`, `paper-only`, `project`, `product`, `benchmark`, `infrastructure`, or `unverified`;
+* a short note describing its scope and relevance to research automation;
+* any important caveats about license, code availability, benchmark protocol, or reproducibility.
 
-- generic chatbots with no research workflow;
-- simple summarizers without retrieval, citations, or audit;
-- unsourced lists without stable links;
-- projects whose relation to research automation is unclear.
+This list is not intended to rank systems or make endorsement claims. Performance and capability claims should be tied to specific sources, benchmarks, and dates whenever possible.
 
-Maintenance principles:
+## Acknowledgements
 
-- Prefer primary sources: arXiv, OpenReview, PMLR, ACL Anthology, CVF, ACM, IEEE, Nature, official project pages, and GitHub repos.
-- Avoid universal ranking claims; tie performance claims to a specific benchmark and date.
-- Separate open-source projects, paper-only systems, benchmarks, infrastructure, and commercial products.
-- Record limitations and verification status when a repo, license, benchmark protocol, or result is unclear.
+This repository is built on the contributions of many researchers, developers, and open-source communities working on Auto Research, AI Scientist systems, scientific agents, deep research, benchmarks, and research infrastructure.
 
-Suggested entry format:
+All credit for the original papers, codebases, datasets, benchmarks, and project ideas belongs to their respective authors and maintainers. This repository only provides a curated map with short summaries and links to help readers navigate the field.
 
-```markdown
-| Name | Date | Links | Status | Scope | Main Pattern | HITL | Notes |
-```
-
-Contribution checklist:
-
-- include the first public date or release month;
-- include paper link when available;
-- include code or project link when available;
-- mark status as `open-source`, `paper-only`, `project`, `product`, `benchmark`, `infrastructure`, or `unverified`;
-- identify the research stage and main paradigm;
-- include a caveat if benchmark scope, license, code availability, or results are unclear;
-- avoid unsupported ranking claims;
-- prefer primary sources over blog summaries or secondary lists.
-
-Recommended PR structure:
-
-```markdown
-### What changed
-- Added/updated: <name>
-- Category: <system / benchmark / infrastructure / product>
-- Date verified: YYYY-MM-DD
-
-### Sources
-- Paper:
-- Code/project:
-- Benchmark/docs:
-
-### Caveats
-- License:
-- Code availability:
-- Benchmark scope:
-```
-
-Open questions and useful future contributions:
-
-- code availability checks for paper-only systems such as MiroFlow, MiroThinker, Marco DeepResearch, ResearchPilot, and Efficient Deep Research;
-- license and maintenance-status checks for open-source repos;
-- clearer separation between systems that can run locally and hosted products;
-- cost/runtime columns for benchmarks and systems;
-- privacy and data-governance notes for unpublished manuscripts and lab data;
-- more domain coverage outside ML, biomedicine, chemistry, and data science;
-- benchmarks that support human-in-the-loop workflows rather than only full autonomy;
-- reproducibility notes for systems that generate papers, figures, or experimental claims;
-- negative-result and failure-trace examples from real agent runs.
+If you are an author or maintainer of an included project and would like to update, correct, or refine the description, please feel free to open an issue or pull request.
 
 ## License and Citation Notes
 
-Check each project's own license before using code, datasets, or benchmarks. This repository only curates links and short summaries. Paper metadata, benchmark descriptions, and result claims should be attributed to their original sources. -->
+Please check each project's own license before using its code, datasets, models, or benchmarks. This repository only curates public links and brief descriptions.
+
+When using any listed work, please cite the original paper, repository, dataset, benchmark, or project page according to the authors' instructions.
+

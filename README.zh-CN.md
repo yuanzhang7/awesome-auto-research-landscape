@@ -357,80 +357,39 @@
 | Awesome AutoResearch | 2025-2026 | [alvinreal/awesome-autoresearch](https://github.com/alvinreal/awesome-autoresearch) | [![Stars](https://img.shields.io/github/stars/alvinreal/awesome-autoresearch?style=for-the-badge)](https://github.com/alvinreal/awesome-autoresearch) | list | 自动科研系统与循环。 |
 | Awesome AI for Science | ongoing | [ai-boost/awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) | [![Stars](https://img.shields.io/github/stars/ai-boost/awesome-ai-for-science?style=for-the-badge)](https://github.com/ai-boost/awesome-ai-for-science) | list | 更广义的 AI for Science 资源。 |
 
-<!-- ## 贡献指南
+## 贡献指南
 
-收录并不代表背书。说明文字基于公开来源对项目范围进行概括；当代码、论文或基准协议发生变化时，应及时更新。
+欢迎大家参与贡献。本仓库希望成为一个由社区共同维护的 Auto Research、AI Scientist 系统、科研智能体、基准评测与相关基础设施的领域地图。
 
-收录范围：
+你可以通过 issue 或 pull request 参与以下内容：
 
-- 自动化或辅助至少一个科研阶段的系统；
-- 具备科研工作流、记忆、工具、代码执行或论文写作能力的智能体框架；
-- 评估文献发现、深度研究、实验/代码执行、过程可靠性或论文复现的基准；
-- 生物学、化学、医学、机器学习、数据科学、金融等领域的专用 AI Scientist；
-- 构建科研智能体常用的基础设施。
+* 添加新的论文、系统、基准评测或基础设施；
+* 更新代码可用性、许可证信息或项目状态；
+* 修正失效链接或不准确的描述；
+* 改进分类体系、阅读路径或基准评测分类；
+* 在系统、基准或结果存在不确定性时补充说明。
 
-通常不收录：
+添加新条目时，建议尽量包括：
 
-- 没有科研工作流的一般聊天机器人；
-- 缺乏检索、引用或审计机制的简单摘要工具；
-- 没有稳定链接的未溯源列表；
-- 与科研自动化关系不明确的项目。
+* 首次公开发布时间或论文发布时间；
+* 可用的论文、代码、项目主页或基准链接；
+* 合适的状态标签，例如 `open-source`、`paper-only`、`project`、`product`、`benchmark`、`infrastructure` 或 `unverified`；
+* 一句简短说明，概括其范围以及与科研自动化的关系；
+* 关于许可证、代码可用性、基准协议或可复现性的必要说明。
 
-维护原则：
+本列表不用于对系统进行排名，也不代表对某一项目的背书。涉及性能或能力的描述，应尽可能关联到具体来源、基准和时间。
 
-- 优先使用一手来源：arXiv、OpenReview、PMLR、ACL Anthology、CVF、ACM、IEEE、Nature、官方项目页和 GitHub 仓库。
-- 避免泛化排名式表述；性能声明应绑定具体基准和日期。
-- 区分开源项目、paper-only 系统、基准、基础设施和商业产品。
-- 当仓库、许可证、基准协议或结果不明确时，记录局限与待核验状态。
+## 致谢
 
-建议条目格式：
+本仓库建立在众多研究者、开发者和开源社区的贡献之上。他们在 Auto Research、AI Scientist 系统、科学智能体、Deep Research、基准评测和科研基础设施等方向的工作，共同推动了这一领域的发展。
 
-```markdown
-| Name | Date | Links | Status | Scope | Main Pattern | HITL | Notes |
-```
+所有原始论文、代码库、数据集、基准评测和项目想法的贡献均归属于其对应的作者和维护者。本仓库仅提供整理后的领域地图、简短说明和相关链接，帮助读者更高效地了解这一方向。
 
-贡献 checklist：
-
-- 标明首次公开日期或发布月份；
-- 如有论文，提供论文链接；
-- 如有代码或项目页，提供对应链接；
-- 将状态标记为 `open-source`、`paper-only`、`project`、`product`、`benchmark`、`infrastructure` 或 `unverified`；
-- 说明对应科研阶段与主要范式；
-- 如果基准范围、许可证、代码可用性或结果不清楚，应加入限制说明；
-- 避免无依据的排名或性能声明；
-- 优先使用一手来源，而不是博客摘要或二级列表。
-
-推荐 PR 结构：
-
-```markdown
-### 变更内容
-- 新增/更新：<name>
-- 类别：<system / benchmark / infrastructure / product>
-- 核验日期：YYYY-MM-DD
-
-### 来源
-- 论文：
-- 代码/项目：
-- 基准/文档：
-
-### 限制说明
-- 许可证：
-- 代码可用性：
-- 基准范围：
-```
-
-值得继续补充的方向：
-
-- 核验 MiroFlow、MiroThinker、Marco DeepResearch、ResearchPilot、Efficient Deep Research 等 paper-only 系统的代码状态；
-- 检查开源仓库的许可证与维护状态；
-- 更清晰地区分可本地运行系统与托管式产品；
-- 为系统与基准增加成本/runtime 信息；
-- 为未公开 manuscript 和实验室数据补充隐私与数据治理说明；
-- 扩展 ML、生物医学、化学、数据科学之外的领域覆盖；
-- 收集支持 human-in-the-loop 工作流的基准，而不仅是全自动基准；
-- 为生成论文、图表或实验声明的系统补充可复现性说明；
-- 收集真实智能体运行中的负结果和失败轨迹样例。
+如果你是已收录项目的作者或维护者，并希望更新、修正或完善相关描述，欢迎提交 issue 或 pull request。
 
 ## 许可与引用说明
 
-在使用任何项目的代码、数据集或基准前，请检查对应项目自身的许可证。本仓库仅整理链接与简要说明。论文元数据、基准描述与结果声明应归属于原始来源。 -->
+在使用任何项目的代码、数据集、模型或基准评测之前，请务必查看对应项目自身的许可证。本仓库仅整理公开链接和简短介绍。
+
+如果你在研究或项目中使用了列表中的任何工作，请按照原作者的要求引用对应论文、代码库、数据集、基准评测或项目主页。
+
