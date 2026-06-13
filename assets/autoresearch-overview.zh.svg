@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+  <title id="title">自动科研概览</title>
+  <desc id="desc">自动科研流程图：理解文献、提出假设、检验实验、写作结果、核验证据，并沉淀可复用的记忆与技能，由基准评测和基础设施提供支撑。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c2410c"/>
+    </marker>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font: 700 34px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 17px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #475569; }
+      .stage { fill: #f8fafc; stroke: #475569; stroke-width: 2; }
+      .stage-title { font: 700 22px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #0f172a; }
+      .stage-desc { font: 400 16px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #334155; }
+      .support { fill: #fff7ed; stroke: #c2410c; stroke-width: 2; }
+      .support-title { font: 700 20px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #7c2d12; }
+      .support-desc { font: 400 14px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #9a3412; }
+      .human { fill: #eef2ff; stroke: #4f46e5; stroke-width: 2; }
+      .human-title { font: 700 20px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #312e81; }
+      .human-desc { font: 400 15px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #4338ca; }
+      .arrow { stroke: #334155; stroke-width: 2.4; fill: none; marker-end: url(#arrow); }
+      .dash { stroke: #64748b; stroke-width: 2.4; fill: none; stroke-dasharray: 7 7; marker-end: url(#arrow); }
+      .support-arrow { stroke: #c2410c; stroke-width: 2; fill: none; stroke-dasharray: 6 6; marker-end: url(#arrow-orange); }
+      .label { font: 400 14px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #64748b; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1280" height="620"/>
+
+  <text class="title" x="640" y="58" text-anchor="middle">自动科研概览</text>
+  <text class="subtitle" x="640" y="88" text-anchor="middle">从证据到想法、实验、写作、审计与可复用记忆的人机协同科研循环。</text>
+
+  <rect class="human" x="280" y="118" width="720" height="62" rx="14"/>
+  <text class="human-title" x="640" y="144" text-anchor="middle">人类引导</text>
+  <text class="human-desc" x="640" y="166" text-anchor="middle">目标、约束、新颖性判断、审批、伦理与隐私</text>
+
+  <rect class="stage" x="52" y="248" width="166" height="96" rx="14"/>
+  <text class="stage-title" x="135" y="282" text-anchor="middle">理解</text>
+  <text class="stage-desc" x="135" y="309" text-anchor="middle">文献发现</text>
+
+  <rect class="stage" x="252" y="248" width="166" height="96" rx="14"/>
+  <text class="stage-title" x="335" y="282" text-anchor="middle">提出</text>
+  <text class="stage-desc" x="335" y="309" text-anchor="middle">假设与辩论</text>
+
+  <rect class="stage" x="452" y="248" width="166" height="96" rx="14"/>
+  <text class="stage-title" x="535" y="282" text-anchor="middle">检验</text>
+  <text class="stage-desc" x="535" y="309" text-anchor="middle">实验与代码</text>
+
+  <rect class="stage" x="652" y="248" width="166" height="96" rx="14"/>
+  <text class="stage-title" x="735" y="282" text-anchor="middle">写作</text>
+  <text class="stage-desc" x="735" y="309" text-anchor="middle">草稿与评审</text>
+
+  <rect class="stage" x="852" y="248" width="166" height="96" rx="14"/>
+  <text class="stage-title" x="935" y="282" text-anchor="middle">核验</text>
+  <text class="stage-desc" x="935" y="309" text-anchor="middle">声明与轨迹</text>
+
+  <rect class="stage" x="1052" y="248" width="166" height="96" rx="14"/>
+  <text class="stage-title" x="1135" y="282" text-anchor="middle">沉淀</text>
+  <text class="stage-desc" x="1135" y="309" text-anchor="middle">记忆与技能</text>
+
+  <path class="arrow" d="M 218 296 L 244 296"/>
+  <path class="arrow" d="M 418 296 L 444 296"/>
+  <path class="arrow" d="M 618 296 L 644 296"/>
+  <path class="arrow" d="M 818 296 L 844 296"/>
+  <path class="arrow" d="M 1018 296 L 1044 296"/>
+
+  <path class="dash" d="M 1135 248 C 1135 206, 930 202, 640 202 C 350 202, 135 206, 135 240"/>
+  <text class="label" x="640" y="220" text-anchor="middle">新证据与经验沉淀进入下一轮研究循环</text>
+
+  <path class="support-arrow" d="M 640 180 L 640 238"/>
+
+  <rect class="support" x="214" y="430" width="360" height="86" rx="14"/>
+  <text class="support-title" x="394" y="462" text-anchor="middle">基准评测</text>
+  <text class="support-desc" x="394" y="488" text-anchor="middle">评估检索、实验、复现与审计能力</text>
+
+  <rect class="support" x="706" y="430" width="360" height="86" rx="14"/>
+  <text class="support-title" x="886" y="462" text-anchor="middle">基础设施</text>
+  <text class="support-desc" x="886" y="488" text-anchor="middle">论文 API、工具、沙箱、记忆与编排</text>
+
+  <path class="support-arrow" d="M 330 430 C 260 390, 170 382, 135 352"/>
+  <path class="support-arrow" d="M 394 430 C 430 390, 500 382, 535 352"/>
+  <path class="support-arrow" d="M 470 430 C 620 385, 850 382, 935 352"/>
+
+  <path class="support-arrow" d="M 820 430 C 720 386, 260 382, 135 352"/>
+  <path class="support-arrow" d="M 886 430 C 850 390, 610 382, 535 352"/>
+  <path class="support-arrow" d="M 950 430 C 1010 390, 1100 382, 1135 352"/>
+
+  <text class="label" x="640" y="562" text-anchor="middle">多数系统覆盖该循环中的部分环节；端到端系统尝试连接多个阶段。</text>
+</svg>
