@@ -357,7 +357,7 @@
 | Awesome AutoResearch | 2025-2026 | [alvinreal/awesome-autoresearch](https://github.com/alvinreal/awesome-autoresearch) | [![Stars](https://img.shields.io/github/stars/alvinreal/awesome-autoresearch?style=for-the-badge)](https://github.com/alvinreal/awesome-autoresearch) | list | 自动科研系统与循环。 |
 | Awesome AI for Science | ongoing | [ai-boost/awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) | [![Stars](https://img.shields.io/github/stars/ai-boost/awesome-ai-for-science?style=for-the-badge)](https://github.com/ai-boost/awesome-ai-for-science) | list | 更广义的 AI for Science 资源。 |
 
-## 贡献指南
+<!-- ## 贡献指南
 
 收录并不代表背书。说明文字基于公开来源对项目范围进行概括；当代码、论文或基准协议发生变化时，应及时更新。
 
@@ -433,4 +433,4 @@
 
 ## 许可与引用说明
 
-在使用任何项目的代码、数据集或基准前，请检查对应项目自身的许可证。本仓库仅整理链接与简要说明。论文元数据、基准描述与结果声明应归属于原始来源。
+在使用任何项目的代码、数据集或基准前，请检查对应项目自身的许可证。本仓库仅整理链接与简要说明。论文元数据、基准描述与结果声明应归属于原始来源。 -->

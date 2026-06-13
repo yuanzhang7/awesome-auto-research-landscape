@@ -357,7 +357,7 @@ One possible order:
 | Awesome AutoResearch | 2025-2026 | [alvinreal/awesome-autoresearch](https://github.com/alvinreal/awesome-autoresearch) | [![Stars](https://img.shields.io/github/stars/alvinreal/awesome-autoresearch?style=for-the-badge)](https://github.com/alvinreal/awesome-autoresearch) | list | Auto-research systems and loops. |
 | Awesome AI for Science | ongoing | [ai-boost/awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) | [![Stars](https://img.shields.io/github/stars/ai-boost/awesome-ai-for-science?style=for-the-badge)](https://github.com/ai-boost/awesome-ai-for-science) | list | Broad AI-for-science resources. |
 
-## Contributing
+<!-- ## Contributing
 
 Inclusion is not endorsement. Notes summarize the apparent scope of each project from public sources and should be updated when code, papers, or benchmark protocols change.
 
@@ -433,4 +433,4 @@ Open questions and useful future contributions:
 
 ## License and Citation Notes
 
-Check each project's own license before using code, datasets, or benchmarks. This repository only curates links and short summaries. Paper metadata, benchmark descriptions, and result claims should be attributed to their original sources.
+Check each project's own license before using code, datasets, or benchmarks. This repository only curates links and short summaries. Paper metadata, benchmark descriptions, and result claims should be attributed to their original sources. -->
